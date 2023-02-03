@@ -7,7 +7,7 @@ import {
   UPDATE_USER,
   USERS_REQUEST,
 } from "./store/usersActions";
-import { Button, Error } from "../../components/StyledComponents";
+import { Button, Error, Paper } from "../../components/StyledComponents";
 import { Table } from "../../components/Table";
 import { TableRow } from "../../components/TableRow";
 
@@ -114,7 +114,7 @@ const Users = () => {
       {usersError && <Error>{usersError}</Error>}
       {loading && "Loading... Please wait"}
       {data && (
-        <>
+        <Paper>
           {!isAddFormOpen && (
             <Button onClick={onAddUserClick}>Add new user</Button>
           )}
@@ -148,7 +148,7 @@ const Users = () => {
             handleSaveRow={handleSaveEditedUser}
             editModeIds={editModeIds}
           />
-        </>
+        </Paper>
       )}
     </>
   );

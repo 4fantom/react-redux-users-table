@@ -11,6 +11,12 @@ export const Button = styled.button`
   cursor: pointer;
 `;
 
+export const Paper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+`;
 export const Error = styled.div`
   padding: 10px;
   margin: 10px;
@@ -36,14 +42,14 @@ export const StyledTable = styled.table`
 
   tbody tr {
     :nth-of-type(odd) {
-      background-color: #ededed;
+      background-color: #e4e6b3;
     }
     :hover {
-      background-color: #bcf5bc;
+      background-color: #d5c181;
     }
   }
   thead > tr {
-    background-color: #c2c2c2;
+    background-color: #b8973d;
   }
   caption {
     font-size: 0.9em;
@@ -56,7 +62,7 @@ export const Input = styled.input`
   font-size: 16px;
   padding: 5px;
   margin: 5px;
-  background: papayawhip;
+  background: #d3e4af;
   border: none;
   border-radius: 3px;
   ::placeholder {
