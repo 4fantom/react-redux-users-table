@@ -1,7 +1,8 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "http://4fantom.github.io/",
   "dependencies": {
     "@mui/material": "^5.11.6",
     "@reduxjs/toolkit": "^1.9.2",
