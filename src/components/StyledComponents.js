@@ -11,6 +11,12 @@ export const Button = styled.button`
   cursor: pointer;
 `;
 
+export const Error = styled.div`
+  padding: 10px;
+  margin: 10px;
+  background-color: red;
+`;
+
 export const StyledTable = styled.table`
   caption-side: top;
   border: none;

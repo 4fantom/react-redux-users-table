@@ -7,7 +7,7 @@ import {
   UPDATE_USER,
   USERS_REQUEST,
 } from "./store/usersActions";
-import { Button } from "../../components/StyledComponents";
+import { Button, Error } from "../../components/StyledComponents";
 import { Table } from "../../components/Table";
 import { TableRow } from "../../components/TableRow";
 
@@ -42,6 +42,7 @@ const Users = () => {
   const { loading, data, error } = users;
   const [editModeIds, setEditModeIds] = useState([]);
   const [isAddFormOpen, setIsAddFormOpen] = useState(false);
+  const [usersError, setUsersError] = useState(null);
 
   const nextUserId = useMemo(() => {
     const ids = data?.map((user) => Number(user.id));
@@ -53,13 +54,22 @@ const Users = () => {
         return b - a;
       })[0] + 1
     );
-  }, [users]);
+  }, [data]);
 
   useEffect(() => {
     dispatch({
       type: USERS_REQUEST,
     });
   }, [dispatch]);
+
+  useEffect(() => {
+    if (error) {
+      setUsersError(error);
+      setTimeout(() => {
+        setUsersError(null);
+      }, 3000);
+    }
+  }, [error]);
 
   const onAddUserClick = () => {
     setIsAddFormOpen(true);
@@ -99,12 +109,9 @@ const Users = () => {
     });
   };
 
-  if (error) {
-    return <>{error}</>;
-  }
-
   return (
     <>
+      {usersError && <Error>{usersError}</Error>}
       {loading && "Loading... Please wait"}
       {data && (
         <>
