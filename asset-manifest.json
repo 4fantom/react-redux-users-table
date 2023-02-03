@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.js": "/4fantom/react-redux-users-table.github.io/static/js/main.149fbf92.js",
-    "static/js/440.23dbdf3b.chunk.js": "/4fantom/react-redux-users-table.github.io/static/js/440.23dbdf3b.chunk.js",
-    "static/js/133.b8ce301f.chunk.js": "/4fantom/react-redux-users-table.github.io/static/js/133.b8ce301f.chunk.js",
-    "static/js/474.e0cbc29a.chunk.js": "/4fantom/react-redux-users-table.github.io/static/js/474.e0cbc29a.chunk.js",
-    "static/js/900.6632aa4f.chunk.js": "/4fantom/react-redux-users-table.github.io/static/js/900.6632aa4f.chunk.js",
-    "static/css/810.b69780ae.chunk.css": "/4fantom/react-redux-users-table.github.io/static/css/810.b69780ae.chunk.css",
-    "static/js/810.23d6fef2.chunk.js": "/4fantom/react-redux-users-table.github.io/static/js/810.23d6fef2.chunk.js",
-    "static/js/524.ae39c05e.chunk.js": "/4fantom/react-redux-users-table.github.io/static/js/524.ae39c05e.chunk.js",
-    "static/js/688.2b904432.chunk.js": "/4fantom/react-redux-users-table.github.io/static/js/688.2b904432.chunk.js",
-    "index.html": "/4fantom/react-redux-users-table.github.io/index.html",
-    "main.149fbf92.js.map": "/4fantom/react-redux-users-table.github.io/static/js/main.149fbf92.js.map",
-    "440.23dbdf3b.chunk.js.map": "/4fantom/react-redux-users-table.github.io/static/js/440.23dbdf3b.chunk.js.map",
-    "133.b8ce301f.chunk.js.map": "/4fantom/react-redux-users-table.github.io/static/js/133.b8ce301f.chunk.js.map",
-    "474.e0cbc29a.chunk.js.map": "/4fantom/react-redux-users-table.github.io/static/js/474.e0cbc29a.chunk.js.map",
-    "900.6632aa4f.chunk.js.map": "/4fantom/react-redux-users-table.github.io/static/js/900.6632aa4f.chunk.js.map",
-    "810.b69780ae.chunk.css.map": "/4fantom/react-redux-users-table.github.io/static/css/810.b69780ae.chunk.css.map",
-    "810.23d6fef2.chunk.js.map": "/4fantom/react-redux-users-table.github.io/static/js/810.23d6fef2.chunk.js.map",
-    "524.ae39c05e.chunk.js.map": "/4fantom/react-redux-users-table.github.io/static/js/524.ae39c05e.chunk.js.map",
-    "688.2b904432.chunk.js.map": "/4fantom/react-redux-users-table.github.io/static/js/688.2b904432.chunk.js.map"
+    "main.js": "/react-redux-users-table.github.io/static/js/main.74410b7a.js",
+    "static/js/440.23dbdf3b.chunk.js": "/react-redux-users-table.github.io/static/js/440.23dbdf3b.chunk.js",
+    "static/js/133.b8ce301f.chunk.js": "/react-redux-users-table.github.io/static/js/133.b8ce301f.chunk.js",
+    "static/js/474.e0cbc29a.chunk.js": "/react-redux-users-table.github.io/static/js/474.e0cbc29a.chunk.js",
+    "static/js/900.6632aa4f.chunk.js": "/react-redux-users-table.github.io/static/js/900.6632aa4f.chunk.js",
+    "static/css/810.b69780ae.chunk.css": "/react-redux-users-table.github.io/static/css/810.b69780ae.chunk.css",
+    "static/js/810.23d6fef2.chunk.js": "/react-redux-users-table.github.io/static/js/810.23d6fef2.chunk.js",
+    "static/js/524.ae39c05e.chunk.js": "/react-redux-users-table.github.io/static/js/524.ae39c05e.chunk.js",
+    "static/js/688.2b904432.chunk.js": "/react-redux-users-table.github.io/static/js/688.2b904432.chunk.js",
+    "index.html": "/react-redux-users-table.github.io/index.html",
+    "main.74410b7a.js.map": "/react-redux-users-table.github.io/static/js/main.74410b7a.js.map",
+    "440.23dbdf3b.chunk.js.map": "/react-redux-users-table.github.io/static/js/440.23dbdf3b.chunk.js.map",
+    "133.b8ce301f.chunk.js.map": "/react-redux-users-table.github.io/static/js/133.b8ce301f.chunk.js.map",
+    "474.e0cbc29a.chunk.js.map": "/react-redux-users-table.github.io/static/js/474.e0cbc29a.chunk.js.map",
+    "900.6632aa4f.chunk.js.map": "/react-redux-users-table.github.io/static/js/900.6632aa4f.chunk.js.map",
+    "810.b69780ae.chunk.css.map": "/react-redux-users-table.github.io/static/css/810.b69780ae.chunk.css.map",
+    "810.23d6fef2.chunk.js.map": "/react-redux-users-table.github.io/static/js/810.23d6fef2.chunk.js.map",
+    "524.ae39c05e.chunk.js.map": "/react-redux-users-table.github.io/static/js/524.ae39c05e.chunk.js.map",
+    "688.2b904432.chunk.js.map": "/react-redux-users-table.github.io/static/js/688.2b904432.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.149fbf92.js"
+    "static/js/main.74410b7a.js"
   ]
 }
