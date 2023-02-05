@@ -7,7 +7,7 @@ const UsersPage = lazy(() => import("./modules/users/Users"));
 
 const App = () => {
   return (
-    <BrowserRouter basename="/react-redux-users-table">
+    <BrowserRouter>
       <Suspense fallback={<></>}>
         <Routes>
           <Route exact path={RoutePaths.root} element={<HomePage />} />
